@@ -1,2 +1,7 @@
-# vanillajs-crud-filter-sort
-CRUD application in vanilla or plain javascript
+**[vanillajs-crud-filter-sort](https://avinashmahlawat.github.io/vanillajs-crud-filter-sort/)**
+
+  **Description**<br/>
+  *This is a CRUD Vanilla javascript application with sort & filter functionality*
+
+  <br/>
+  <img src="https://i.imgur.com/wJJjLO9.jpg" alt="" />
