@@ -1,0 +1,34 @@
+.flex-item{
+  padding: 10px;
+}
+.app-header-div{ height: 60px; }
+.app-header{
+  font-style: italic;
+  padding-left: 40%;
+  width: 100%;
+}
+.app-header-light-theme{
+  color: #fff;
+  background: #000;
+}
+.app-header-dark-theme{
+  color: #000;
+  background: #fff;
+}
+.flex-container {
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  float: left;
+}
+
+.flex-start { 
+  -webkit-align-items: flex-start;
+  align-items: flex-start; 
+}

@@ -1,10 +1,11 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box; 
 }
 body{    
-    position: absolute;
-	padding: 20px;
+	display: flex;
+    flex-direction: column;
 }
 ul{
 	max-height: 700px;
@@ -17,11 +18,10 @@ ul li{
 }
 .flex--container{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .main-container{
-	height: 100%;
-	width: 100%;
+	padding: 50px;
 }
 .component{
 	width: 300px;
@@ -68,6 +68,10 @@ ul li{
     border-radius: 5px;
     width: 250px;
     margin-top: 20px;
+}
+.react-logo{
+	height: 10px;
+	width: 10px;
 }
 /* arrows css */
 i {
