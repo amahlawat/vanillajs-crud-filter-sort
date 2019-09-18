@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css" />
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./drag-drop.css" />
+		<script src="./index.js" ></script>
+	</head>
+	<body>
+		<div class="main-container flex--container">
+			<div class="component">
+				<div class="flex--container">
+					<input class="filter" 
+						placeholder="Filter Title" 
+						id='Title'
+						onkeypress="handleFilterClick(event)" 
+					/>
+					<button class="sort-btn" id="titleBtn" onclick="handleSort(event)">Sort Title <i id="titleBtnIcon" class="down"></i></button>				
+				</div>
+				<ul id="allTitles"></ul>				
+			</div>
+			<div class="component">
+				<h3>CRUD Vanilla js</h3>
+				<input type="text" id="userInput" class="add-data" onkeypress="userDataClickHandler(event)" placeholder="add data..."/>
+				<ul id="userData" />
+			</div>
+		</div>
+	</body>
+</html>
