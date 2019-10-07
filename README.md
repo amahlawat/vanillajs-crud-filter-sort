@@ -1,4 +1,4 @@
-**[vanillajs-crud-filter-sort](https://avinashmahlawat.github.io/vanillajs-crud-filter-sort/)**
+**[vanillajs-crud-filter-sort](https://amahlawat.github.io/vanillajs-crud-filter-sort/)**
 
   **Description**<br/>
   *This is a CRUD Vanilla javascript application with sort & filter functionality*
